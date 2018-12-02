@@ -16,3 +16,24 @@ See Documentation/00-INDEX for a list of what is contained in each file.
 Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
+
+
+
+Harry's Update
+===============
+
+This personal branch is for enabling PCM 384K and 768K (later for 1536K) in kernel for Raspberry Pi
+
+Modificatation is based on below reference, so thanks to them whoever had contributed to it
+
+https://github.com/blue777/NanoPi-NEO2-I2S_MCLK
+https://github.com/raspberrypi/linux/commit/e621a35cf91a6167d8b594b44f83c2aba0bbb5f7
+http://blog.sina.com.cn/s/blog_5372b4a00102zryv.html
+
+
+
+History:
+
+2018/12/2,  add 768K supports, verified on Moode4.3 with i-sabre 9038 codec
+
+
